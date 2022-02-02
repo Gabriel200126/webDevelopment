@@ -1,0 +1,20 @@
+@media screen and (max-width: 1000px) {
+  body {
+    float: none;
+    display: block;
+    padding: 15px;
+  }
+  .navbar ul li {
+    display: block;
+  }
+  .feature {
+    width: 20%;
+    height: 20%;
+    padding-right: 10px;
+    position: absolute;
+    right: 5px;
+  }
+  .social a {
+    transform: none;
+  }
+}
