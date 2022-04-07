@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="drink.css" />
+    <link rel="stylesheet" href="dinkmedia.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" onclick="colorClick()">day</a></li>
+          <li><a href="#">night</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="immaginevino">
+      <img src="vino2.jpg" alt="" class="vinosotto" />
+      <h1 class="h1-1">
+        La qualità <br />
+        <span class="migliore">migliore</span>
+      </h1>
+      <p class="citazione">
+        L’uva scorre per vie segrete dal tralcio <br />
+        della vigna all’incantesimo del vino. A volte <br />
+        deve stagionare <br />
+        mesi o anni, <br />
+        ma il suo cammino si compie sempre. E quando <br />
+        apri una bottiglia <br />
+        senti che lì dentro c’è qualcosa <br />
+        che arriva da molto lontano, <br />
+        che viene dal sole e dalla profondità della terra.
+      </p>
+
+      <a
+        href="#viniprezzi"
+        class="bottonecontinua"
+        onclick="bottegaClick('onclick1')"
+        >Bottega</a
+      >
+    </div>
+
+    <div id="onclick1">
+      <a name="viniprezzi"> <p>.</p></a>
+      <div id="vini">
+        <div id="vino10">
+          <img
+            src="white-wine-champagne-sparkling-wine-distilled-beverage-wine-bottle-79d39acaa8dc1dc09143dd8e18a8b722.png"
+            alt=""
+            class="vino" onscroll=""
+          />
+          <h2 class="h2-2">Lanson</h2>
+          <p class="descrizionevinobianco">
+            Vino bianco della torre <br />
+            Prezzo 11$
+          </p>
+        </div>
+
+        <div id="vino2">
+          <img
+            src="liqueur-dessert-wine-glass-bottle-wine-d8910a122b94bcfa070d909c1458f0b6.png"
+            alt=""
+            class="vino"
+            style="width: 70px; margin-top: 20px"
+          />
+
+          <h2 class="h2-3">Mulinero</h2>
+          <p class="rossopregiato">
+            Vino rosso pregiato <br />
+            Prezzo 20$
+          </p>
+        </div>
+
+        <div id="vino3">
+          <img
+            src="red-wine-zweigelt-sparkling-wine-eternal-wines-drink-washington-state-wine-jar-sunset-5060cefa0cffd6bb3b4eb4df5fb963bb.png"
+            alt=""
+            class="vino"
+            style="width: 180px"
+          />
+          <h2 class="h2-4">Campagnolo</h2>
+          <p class="descrizionecapagnola">vino di campagna <br />Prezzo 30$</p>
+        </div>
+
+        <div id="vino4">
+          <img
+            src="red-wine-cognac-whisky-wine-bottle-c4b029549bd63c362eb2bdd04bab61d9.png"
+            alt=""
+            class="vino"
+            style="width: 200px; margin-left: -40px"
+          />
+          <h2 class="h2-5">Remy Martin</h2>
+          <p class="descrizionecognac">
+            Alcolico di qualità <br />
+            Prezzo 20$
+          </p>
+        </div>
+      </div>
+
+      <h1 class="h10">Non solo vino</h1>
+
+      <h1 class="h1-20">Scegli la categoria</h1>
+<div id="container-t">
+      <div class="container-principale">
+        <div class="carta" id="carta1" onclick="birra1Click('birre','Drinks')">
+          Birra
+        </div>
+        <div class="carta" id="carta2" onclick="drink1Click('Drinks', 'birre')">
+          Drinks
+        </div>
+        <div class="carta" id="carta3">analcolici</div>
+    </div>
+</div>
+
+      <div id="birre">
+        <div id="birreflex">
+          <img
+            src="lager-beer-brewing-grains-malts-cider-ale-beer-9d3a91678b61f3a0fca2948fd634d084.png"
+            alt=""
+            class="birra1"
+          />
+          <h2 class="h2-0">Birra tradizionale</h2>
+          <p class="p-0">Prezzo 3$/L</p>
+        </div>
+      </div>
+
+      <div id="Drinks">
+        <div id="drinkflex">
+          <img
+            src="rickey-mojito-lime-cocktail-garnish-bacardi-superior-mojito-48e5bbef3d4945f1427ba36ce9be59be.png"
+            alt=""
+            class="drink1"
+          />
+        
+          <h2 class="h2-00">Mojito</h2>
+          <p class="p-00">Prezzo 5$</p>
+
+          <img src="cocktail-sea-breeze-mai-tai-bay-breeze-woo-woo-mojito-c8f63a829c908c72cce41eee37848e52.png" alt="" class="drink2">
+        </div>
+      </div>
+    </div>
+
+
+<div class="contatti">
+    <h1 class="gabriel">DaGabriel</h1>
+
+</div>
+
+
+
+
+    <script src="drink.js"></script>
+  </body>
+</html>

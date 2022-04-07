@@ -1,0 +1,131 @@
+:root{
+    background-color: red;
+    color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: red;
+    color: white;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.tuttobordo{
+    border: 20px solid black;
+}
+
+
+input[type=radio] {
+    display: none;
+}
+  
+label.lab{
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+}
+
+label.lab:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+#paginazione{
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#pagine{
+    width: 500vw;
+    height: 100vh;
+    display: flex;
+}
+
+section#pagine > div {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: all .8s ease-in-out; 
+}
+
+span{
+    position: relative;
+    left: 200px;
+}
+
+
+#page1{
+    
+    height: 40vh;
+    width: 40%;
+}
+
+.img1{
+    width: 30%;
+    position: relative;
+    top: 200px;
+    left: -80px;
+}
+
+
+
+
+#page2{
+    background-image: url(p2.jpg);
+}
+
+#page3{
+    background-image: url(p3.jpg);
+}
+
+#page4{
+    background-image: url(p4.jpg);
+}
+
+#page5{
+    background-image: url(p5.jpg);
+}
+
+input#inp1:checked ~ div#page1{ 
+    margin-left: 0;
+
+}
+
+input#inp2:checked ~ div#page1{ 
+    margin-left: -20%;
+}
+
+input#inp3:checked ~ div#page1{ 
+    margin-left: -40%;
+}
+input#inp4:checked ~ div#page1{ 
+    margin-left: -60%;
+}
+input#inp5:checked ~ div#page1{ 
+    margin-left: -80%;
+}
+
+
+

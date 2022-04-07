@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;   
+}
+
+.back{
+    height: 100vh;
+    width: 100%;
+    background-image: url(80938.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+span{
+    color: cornflowerblue;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li:hover{ 
+    color: cornflowerblue;
+    transition: .4s;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+@media (min-width:768px) and (max-width:990px){
+    ul li{
+        text-align:center;
+        position:relative;
+        left:10px;
+        display:inline-block;
+        width:90px;
+    }
+}
+
+
+
+@media (max-width:991px){
+    ul li{
+        text-align:center;
+        position:relative;
+        left:10px;
+        display:inline-block;
+        font-size:11px;
+    }
+}
+
+
+
+@media(max-width:1200px){
+    ul li{
+        text-align: center;
+        position: relative;
+        top: -0px;
+        display: inline-block;
+        border-bottom: 3px solid rgba(228, 168, 56, 0.835);
+    }
+}
+
+.cuoco{
+    position: relative;
+    top: 200px;
+    left: 260px;
+    width: 30%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10%;
+    box-shadow: 7px 7px 7px cornflowerblue;
+    cursor: pointer;
+    animation-name: cuoco;
+    animation-duration: 3s;
+    
+}
+@keyframes cuoco{
+    0%{
+        opacity: 0;
+        margin-left: -150px;
+    }
+}
+@media(max-width:1300px){
+    .cuoco{
+        top: 320px;
+        left: 150px;
+        width: 40%;
+
+    }
+    
+}
+
+#frase{
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    display: inline-block;
+    box-shadow: 1px 1px 1px cornflowerblue;
+    
+    animation-name: frasecuoco;
+    animation-duration: 3s;
+
+}
+@keyframes frasecuoco{
+    0%{
+        opacity: 0;
+        color: coral;
+        font-size: 10px;
+    }
+}
+
+
+
+@media(max-width:1300px){
+    #frase{
+        font-size: 15px;
+        top: 37%;
+        left: 700px;   
+        
+    }
+
+}
+.sfondofood{
+    height: 100vh;
+    width: 100%;
+    background-image: url(80938.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:1300px){
+    .sfondofood{
+        display: block;
+    }
+}
+
+.benvenuto{
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    top: 0px;
+    left: 400px;
+    color: cornflowerblue;
+    font-size: 35px;
+}
+
+.miglioriricette{
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    top: 200px;
+    left: -260px;
+    color: cornflowerblue;
+    font-size: 25px;
+    overflow: hidden;
+    border: 3px solid cornflowerblue;
+    box-shadow: 0px 0px 5px 5px white;
+    background-color: rgba(199, 165, 15, 0.226);
+}
+
+.migliorichef{
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    top: 185px;
+    left: -100px;
+    color: cornflowerblue;
+    font-size: 25px;
+    border: 3px solid cornflowerblue;
+    box-shadow: 0px 0px 5px 5px white;
+    background-color: rgba(199, 165, 15, 0.226);
+}
+.box3{
+    background-image:url(80848.jpg);
+}
+
+.colorsit{
+    color: white;
+}
+
+.ricettamigliore{
+    position: relative;
+    bottom: 400px;
+    left: 260px;
+    cursor: pointer;
+    
+}
+
+.cuocomigliore{
+    position: relative;
+    bottom: 400px;
+    left: 570px;
+    cursor: pointer;
+}
+
+#ricettecuoco{
+   
+    position: absolute;
+    bottom: -650px;
+    left: 15px;
+    animation-name: ricette;
+    animation-duration: 2s;
+    display: none;
+}
+@keyframes ricette{
+    0%{
+        opacity: 0;
+        
+    }
+}
+
+.r1{
+    position: relative;
+    left: 245px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.r2{
+    position: relative;
+    top: 170px;
+    left: 43px;
+    width: 200px;
+}
+
+.r3{
+    position: relative;
+    top: 340px;
+    width: 200px;
+    right: 160px;
+}
+
+#r12{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: -645px;
+    left: 500px;
+    display: none;
+    animation-name: desc1;
+    animation-duration: 2s;
+
+}
+
+@keyframes desc1{
+    0%{
+        opacity: 0;
+    }
+}
+
+.boxsotto{
+    background-image: url(80848.jpg);
+    color: rgb(2, 2, 2);
+    margin-bottom: 100px;
+}
+
+.boxbox{
+    background-image: url(80848);
+}

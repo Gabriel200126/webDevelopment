@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <button id="orario" >  </button>
+  <input type="number" id="age" placeholder="" class="age1"> <input type="button" onclick="ageClick('orario')">
+  
+</head>
+<body>
+  <button id="orario" >  </button>
+  <style>
+  #orario{
+    
+    background-color: cornflowerblue;
+     width: 200px;
+     height: 200px;
+     overflow: hidden;
+     outline: none;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 550px;
+     top: 250px;
+     border-radius: 50%;
+     font-size: 50px;
+     color: white;
+ }
+ 
+ .telefono{
+     display: inline-block;
+     border: 3px solid blue;
+     color: black;
+ }
+  </style>
+
+<script>
+
+
+
+
+
+
+
+let born = 'to our page';
+ let after = 'welcome';
+ actualAge = after + ' ' + born;
+function ageClick(orario){
+ if(document.getElementById(orario).style.display == 'none'){
+  (document.getElementById(orario).style.display = 'block')
+ }
+}
+
+ageClick();
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

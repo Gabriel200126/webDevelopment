@@ -1,0 +1,289 @@
+@media (max-width: 1200px) {
+  nav ul li {
+    padding: 10px 80px;
+  }
+}
+
+@media (max-width: 980px) {
+  nav ul li {
+    padding: 10px 60px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 850px) {
+  nav ul li {
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  nav ul li {
+    padding: 10px 45px;
+  }
+}
+
+@media (max-width: 650px) {
+  nav ul li {
+    padding: 10px 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  nav ul li {
+    padding: 10px 0px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .vinosotto {
+    top: 150px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .vinosotto {
+    top: 200px;
+  }
+}
+
+@media (max-width: 870px) {
+  .vinosotto {
+    top: 220px;
+  }
+}
+
+@media (max-width: 800px) {
+  .vinosotto {
+    top: 230px;
+  }
+}
+
+@media (max-width: 750px) {
+  .vinosotto {
+    top: 240px;
+  }
+}
+
+@media (max-width: 460px) {
+  .vinosotto {
+    top: 200px;
+    left: 0px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .citazione {
+    top: 600px;
+    left: 70px;
+  }
+}
+
+@media (max-width: 460px) {
+  .bottonecontinua {
+    top: 800px;
+    left: 70px;
+  }
+}
+
+@media (max-width: 460px) {
+  .h1-1 {
+    top: 430px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 930px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 900px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 280px;
+  }
+}
+
+@media (max-width: 850px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 310px;
+  }
+}
+
+@media (max-width: 790px) {
+  #vini {
+    margin-top: 300px;
+    margin-left: 350px;
+  }
+}
+
+@media (max-width: 730px) {
+  #vini {
+    margin-top: 350px;
+    margin-left: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  #vini {
+    margin-top: 350px;
+    margin-left: 430px;
+  }
+}
+
+@media (max-width: 700px) {
+  #vino3 {
+    margin-top: 400px;
+    margin-right: 350px;
+  }
+}
+
+@media (max-width: 700px) {
+  #vini {
+    display: block;
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  #vino3 {
+    margin-top: 400px;
+    margin-right: 350px;
+  }
+}
+
+@media (max-width: 700px) {
+  #vino3 {
+    margin-top: -0px;
+  }
+}
+
+@media (max-width: 700px) {
+  #vini {
+    display: block;
+    margin-left: 350px;
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 460px) {
+  #vini {
+    display: block;
+    margin-left: 70px;
+    margin-top: 650px;
+  }
+}
+
+@media (max-width: 400px) {
+    #vini {
+      display: block;
+      margin-left: 40px;
+      margin-top: 650px;
+    }
+  }
+
+
+@media (max-width: 1100px) {
+    .h10 {
+      margin-left: 400px;
+    }
+  }
+
+
+  @media (max-width: 710px) {
+    .h10 {
+      margin-left: 300px;
+    }
+  }
+
+
+  @media (max-width: 610px) {
+    .h10 {
+      margin-left: 250px;
+    }
+  }
+
+
+  @media (max-width: 559px) {
+    .h10 {
+      margin-left: 230px;
+    }
+  }
+
+
+  @media (max-width: 540px) {
+    .h10 {
+      margin-left: 200px;
+    }
+  }
+
+
+  @media (max-width: 506px) {
+    .h10 {
+      margin-left: 150px;
+    }
+  }
+
+
+  @media (max-width: 450px) {
+    .h10 {
+      margin-left:80px;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .h10 {
+      margin-left:50px;
+    }
+  }
+
+  @media (max-width: 610px) {
+    .h1-20{
+      margin-left:50px;
+    }
+  }
+
+  @media (max-width: 450px){
+      #container-t{
+          margin-left: -80px;
+      }
+  }
+
+  @media (max-width: 390px){
+    #container-t{
+        margin-left: -110px;
+    }
+}
+    
+
+
+
+
+
+

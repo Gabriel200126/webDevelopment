@@ -1,0 +1,6 @@
+@media(max-width: 1200px){
+    nav ul li{
+        padding: 10px 50px ;
+        color: green;
+    }
+}

@@ -1,0 +1,420 @@
+body{
+    
+  background: rgb(0, 0, 0);
+}
+li a {
+    
+  color: white;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  background-image: linear-gradient(360deg, rgb(143, 14, 14), black);
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 110px;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  box-shadow: 5px 0px 5px 0px white;
+}
+
+.vinosotto {
+  width: 57%;
+  height: 100%;
+  position: relative;
+  top: 100px;
+  left: 440px;
+  border-radius: 30%;
+}
+
+.h1-1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  animation-name: qualità;
+  animation-duration: 5s;
+}
+
+@keyframes qualità {
+  0% {
+    opacity: 0;
+    left: 250px;
+  }
+}
+
+.migliore {
+  color: rgb(143, 14, 14);
+}
+
+.citazione {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 360px;
+  left: 160px;
+  animation-name: citazione;
+  animation-duration: 5s;
+}
+@keyframes citazione {
+  0% {
+    opacity: 0;
+  }
+}
+
+.bottonecontinua {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid black;
+  position: absolute;
+  top: 550px;
+  left: 160px;
+  font-size: 30px;
+  background-image: linear-gradient(45deg, rgb(143, 14, 14), black);
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.immaginevino {
+  position: relative;
+}
+
+#vini {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  animation-name: vini;
+  animation-duration: 4s;
+  box-shadow: 0px opx 10px 10px black;
+  padding: 30px;
+  background-image: url(sotto16.jpg);
+
+}
+
+@keyframes vini {
+  0% {
+    opacity: 0;
+  }
+}
+
+.vinobianco {
+  width: 130px;
+  margin-top: 300px;
+}
+
+.descrizionevinobianco {
+  color: white;
+  margin-left: 70px;
+}
+
+.h2-2 {
+  color: rgb(143, 14, 14);
+  margin-left: 70px;
+}
+
+.vino {
+  width: 100px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px 45px;
+}
+
+.h2-3 {
+  color: rgb(143, 14, 14);
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.rossopregiato {
+  color: white;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.h2-4 {
+  color: rgb(143, 14, 14);
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.descrizionecapagnola {
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.h2-5 {
+  color: rgb(143, 14, 14);
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.descrizionecognac {
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+#onclick1 {
+  display: none;
+}
+
+#vino4 {
+  animation-name: vino4;
+  animation-duration: 4s;
+}
+
+@keyframes vino4 {
+  0% {
+    margin-left: 300px;
+    transform: rotate(20deg);
+  }
+}
+
+#vino10 {
+  animation-name: vino10;
+  animation-duration: 4s;
+}
+
+@keyframes vino10 {
+  0% {
+    margin-left: 0px;
+    transform: rotate(-20deg);
+  }
+}
+
+.h10{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    margin-left: 500px;
+    position: relative;
+    top: 70px;
+    box-shadow: 5px 5px 5px 5px rgb(121, 9, 9);
+    font-size: 50px;
+   
+   
+}
+
+
+
+
+.container-principale{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   margin-left: 250px;
+    height: 50vh;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    transition-duration: 400ms;
+}
+
+.container-principale:hover{
+    height: 70vh;
+}
+
+.container-principale:hover .carta{
+    transform: rotate(-40deg) skew(28deg, 0deg);
+    margin: -20px 0;
+}
+
+.carta{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    z-index: 3;
+    margin: -50px 0;
+    transition-duration: 500ms;
+}
+
+.carta:nth-child(2) {
+    background: #ffffff6b;
+    z-index: 2;
+}
+
+.carta:nth-child(3){
+    background: #ffffff3b;
+    z-index: 1;
+}
+
+.carta:hover{
+    
+    width: 150px;
+    height: 150px;
+    
+    
+   
+}
+#carta1:hover{
+    background: rgb(153, 114, 8);
+    cursor: pointer;
+font-size: 70px;
+box-shadow: 5px 5px 5px 5px rgb(153, 114, 8);
+
+}
+
+#carta2:hover{
+    background-color: rgb(121, 9, 9);
+    cursor: pointer;
+    font-size: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(121, 9, 9);
+}
+
+#carta3:hover{
+cursor: pointer;
+font-size: 30px;
+}
+
+
+
+
+
+.carta:nth-child(2):hover,
+.caeta:nth-child(3):hover{
+    margin-top: 30px !important;
+}
+
+.h1-20{
+    color: white;
+    margin-left: -550px;
+    position: relative;
+    top: 150px;
+    display: inline-block;
+    border-bottom: 2px solid rgb(121, 9, 9);
+}
+
+
+#birreflex{
+    display: flex;
+  justify-content: center;
+  margin-top: -200px;
+  animation-name: vini;
+  animation-duration: 4s;
+  padding: 30px;
+}
+
+#birre{
+    display: none;
+}
+
+.birra1{
+    width: 100px;
+    animation-duration: 3s;
+    animation-name: birra1;
+}
+
+@keyframes birra1 {
+    0%{
+        opacity: 0;
+        width: 1px;
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+.h2-0{
+    color: white;
+    position: relative;
+    top: 200px;
+    right: 135px;
+}
+.p-0{
+    color: white;
+    position: relative;
+    top: 250px;
+    right: 320px;
+}
+
+#drinkflex{
+    display: flex;
+  justify-content: center;
+  margin-top: -200px;
+  animation-name: vini;
+  animation-duration: 4s;
+  padding: 30px;
+}
+
+#Drinks{
+    display: none;
+}
+
+.drink1{
+    width: 120px;
+    animation-name: drink1;
+    animation-duration: 4s;
+    height: 220px;
+}
+
+@keyframes drink1 {
+    0%{
+        opacity: 0;
+        width: 0px;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.h2-00{
+position: relative;
+color: white;
+top: 200px;
+right: 100px;
+}
+
+.p-00{
+position: relative;
+color: white;
+top: 250px;
+right: 170px;
+}
+
+.drink2{
+    width: 120px;
+    height: 220px;
+    animation-duration: 4s;
+    animation-name: drink1;
+}
+
+
+
+.contatti{
+    background-image: url(sotto14.jpg);
+    margin-top: 200px;
+    display: flex;
+    padding: 150px ;
+}
+
+.gabriel{
+    color: white;
+  position: relative;
+  bottom: 100px;
+}

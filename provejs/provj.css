@@ -1,0 +1,26 @@
+#orario{
+    
+   background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    outline: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 550px;
+    top: 250px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+}
+
+.telefono{
+    display: inline-block;
+    border: 3px solid blue;
+    color: black;
+}

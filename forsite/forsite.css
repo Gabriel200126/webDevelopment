@@ -1,0 +1,81 @@
+
+
+   .imgprofilo{
+       width: 30%;
+       position: relative;
+       left: 600px;
+       bottom: 100px;
+   }
+   
+
+   
+   .descrizione{
+       background: rgb(51, 0, 0);
+       padding: 250px;
+   }
+
+   .h1-1{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+       color: rgb(83, 139, 243);
+       font-size: 40px;
+   }
+
+   .p-1{
+       text-align: left;
+       position: absolute;
+       top: 320px;
+       left: 110px;
+   }
+
+   nav{
+       background-color: cornflowerblue;
+      margin-left: 15px;
+      border-radius: 30%;
+      width: 100%;
+      border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 80%;
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+span{
+    color: cornflowerblue;
+}
+nav ul li{
+    display: inline-block;
+   
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 50px ;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li:hover{ 
+    color: cornflowerblue;
+    transition: .4s;
+}
+
+.back{
+    background: cornflowerblue;
+}
+
+
