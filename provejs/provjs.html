@@ -1,10 +1,39 @@
 <html>
-<link rel="stylesheet" href="provj.css">
+
 
 <body>
+  
+
+
+<script>
+
+function guessGame(){
+        let randomNr = Math.floor(Math.random() * 11);
+        let guess;
+
+        do{
+            guess = prompt('Guess number 1-10')
+            if(randomNr > guess ){
+                console.log('you gussed to low')
+            }else if(randomNr < guess){
+                console.log('to high');
+            }
+        }while(guess != randomNr);
+        console.log('you won');
+
+    }
+
+
+
     
 
-<button id="orario" >  </button>
+    guessGame();
+
+
+
+
+
+</script>
 
 
 
@@ -12,5 +41,5 @@
     
 </body>
 
-<script src="provjs.js"></script>
+
 </html>
